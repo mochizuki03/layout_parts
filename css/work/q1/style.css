@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-.clearfix::after {
+.clearfix::after  {
   display: block;
   content: "";
   clear: both;
 }
 
-.q1_box{
+.q1_box {
   box-sizing: border-box;
   float: left;
   padding: 20px;
@@ -15,11 +15,11 @@
   background-color: #3274ae;
 }
 
-.q1_box:first-child{
+.q1_box:first-child {
   margin: 0;
 }
 
-.q1_text{
+.q1_text  {
   font-size: 16px;
   line-height: 16px;
   padding: 20px;
