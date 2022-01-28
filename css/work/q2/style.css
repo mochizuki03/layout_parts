@@ -6,14 +6,14 @@
   table-layout: fixed;
 }
 
-.q2_table th  {
+.q2_table th {
   font-size: 18px;
   line-height: 26px;
   color: white;
   background-color: #2244aa;
 }
 
-.q2_table td  {
+.q2_table td {
   font-size: 16px;
   line-height: 22px;
 }
@@ -23,7 +23,7 @@
   padding: 10px;
 }
 
-.q2_table tbody tr:nth-child(even)  {
+.q2_table tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.q3_bigbox  {
+.q3_bigbox {
   margin: 0 auto;
   position: relative;
   height: 500px;
@@ -66,7 +66,7 @@
   z-index: 70;
 }
 
-.q3_box_8{
+.q3_box_8 {
   top: 120px;
   left: 120px;
   background-color: #de70cf;
@@ -84,7 +84,7 @@
   background-color: #ffefd3;
 }
 
-.q3_fixed_box {
+.q3_fixed {
   position: fixed;
   bottom: 50px;
   right: 50px;

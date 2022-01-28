@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.q4_text  {
+.q4_text {
   text-align: center;
 }
 
@@ -8,7 +8,7 @@
   display: inline-block;
 }
 
-.q4_margin  { 
+.q4_margin { 
   margin: 0 auto;
 }
 
@@ -16,19 +16,19 @@
   display: table;
 }
 
-.q4_table-cell  {
+.q4_table-cell {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-.q4_flex  {
+.q4_flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.q4_relative  {
+.q4_relative {
   position: relative;
 }
 
@@ -41,11 +41,11 @@
   margin: auto;
 }
 
-.q4_variable  {
+.q4_variable {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
+  transform: translate(-50%,-50%)
 }
 
 /* q4が終わったら
