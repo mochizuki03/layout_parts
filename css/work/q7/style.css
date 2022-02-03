@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+.q7_main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.q7_text_box {
+  position: relative;
+  padding: 20px;
+  margin-left: 35px;
+  width: 550px;
+  box-sizing: border-box;
+  border: 5px solid #222;
+  border-radius: 30px;
+  word-break: break-all;
+  font-size: 16px;
+}
+
+.q7_text_box::before,
+.q7_text_box::after {
+  position: absolute;
+  bottom: 25px;
+  border: 20px solid transparent;
+  content: "";
+}
+
+.q7_text_box:before {
+  left: -45px;
+  border-right-color: #222;
+}
+
+.q7_text_box::after {
+  left: -38px;
+  border-right-color: white;
+}
